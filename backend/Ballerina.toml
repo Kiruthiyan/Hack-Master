@@ -1,0 +1,10 @@
+[package]
+org = "theva"
+name = "firebase_app"
+version = "0.1.0"
+distribution = "2201.8.0" # This is optional but good practice
+
+[[dependency]]
+org = "lakpahana"
+name = "firebase_realtime_database"
+version = "0.7.4"

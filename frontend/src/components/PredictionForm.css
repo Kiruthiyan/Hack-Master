@@ -1,0 +1,11 @@
+.prediction-wrapper { max-width: 900px; margin: 4rem auto; }
+.prediction-wrapper h2 { text-align: center; color: #003366; font-size: 2.5rem; margin-bottom: 2rem; }
+.prediction-container { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; background-color: #f8fafc; padding: 2rem; border-radius: 10px; border: 1px solid #e2e8f0; }
+.prediction-form .form-group { margin-bottom: 1rem; }
+.prediction-form label { display: block; font-weight: 500; margin-bottom: 0.5rem; color: #333; }
+.prediction-form input, .prediction-form select { width: 100%; padding: 0.8rem; font-size: 1rem; border-radius: 6px; border: 1px solid #ccc; }
+.prediction-form button { width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 600; color: white; background-color: #16a34a; border: none; border-radius: 6px; cursor: pointer; margin-top: 1rem; }
+.prediction-result-container { text-align: center; }
+.prediction-output { border: 2px dashed #dcfce7; border-radius: 10px; height: 100%; display: flex; align-items: center; justify-content: center; }
+.probability-text { font-size: 4rem; font-weight: 800; color: #16a34a; }
+.error-text { color: #dc3545; }

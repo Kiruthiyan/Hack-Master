@@ -1,0 +1,148 @@
+{
+  "advertisements": {
+    "ad_dummy_01": {
+      "companyName": "Innovate Solutions",
+      "position": "Senior React Developer",
+      "contactPerson": "Maria Garcia",
+      "contactEmail": "maria.g@innovate.com",
+      "contactPhone": "5550101",
+      "message": "Seeking an experienced React developer to lead our new platform development. Must have 5+ years of experience with Redux and TypeScript.",
+      "postedAt": "2025-08-12T11:00:00.000Z"
+    },
+    "ad_dummy_02": {
+      "companyName": "CloudNet Systems",
+      "position": "DevOps Engineer",
+      "contactPerson": "David Chen",
+      "contactEmail": "d.chen@cloudnet.io",
+      "contactPhone": "5550103",
+      "message": "Join our infrastructure team to manage and scale our AWS cloud services. Experience with Kubernetes, Terraform, and CI/CD pipelines is required.",
+      "postedAt": "2025-08-11T09:00:00.000Z"
+    },
+    "ad_dummy_03": {
+      "companyName": "HealthTech Innovations",
+      "position": "Junior Java Developer",
+      "contactPerson": "Emily White",
+      "contactEmail": "e.white@healthtech.dev",
+      "contactPhone": "5550104",
+      "message": "Exciting opportunity for a recent graduate with a passion for Java and Spring Boot to work on life-saving medical software.",
+      "postedAt": "2025-08-10T14:00:00.000Z"
+    },
+    "ad_dummy_04": {
+      "companyName": "Data Insights Co.",
+      "position": "Data Scientist",
+      "contactPerson": "Samuel Jones",
+      "contactEmail": "s.jones@datainsights.com",
+      "contactPhone": "5550105",
+      "message": "We are looking for a Data Scientist to analyze large datasets and build predictive models. Proficiency in Python, R, and SQL is essential.",
+      "postedAt": "2025-08-09T10:00:00.000Z"
+    },
+    "ad_dummy_05": {
+      "companyName": "Creative Pixel Agency",
+      "position": "UX/UI Designer",
+      "contactPerson": "Sophie Dubois",
+      "contactEmail": "sophie@creativepixel.design",
+      "contactPhone": "5550106",
+      "message": "Create intuitive and beautiful user experiences for our diverse range of clients. A strong portfolio showcasing your work in Figma or Sketch is required.",
+      "postedAt": "2025-08-08T16:30:00.000Z"
+    }
+  },
+  "ideas": {
+    "idea_dummy_01": {
+      "founderName": "Kenji Tanaka",
+      "companyName": "DataViz Inc.",
+      "projectName": "Interactive Data Storytelling",
+      "ideaDescription": "A platform for journalists and researchers to create compelling, interactive data visualizations without writing any code.",
+      "startupStatus": "Planning",
+      "needs": ["Financial Support", "Mentorship"],
+      "contactPhone": "5550102",
+      "contactEmail": "kenji.t@dataviz.com",
+      "founderDegree": "MSc in Data Science",
+      "founderSkills": ["Python", "D3.js", "React"],
+      "postedAt": "2025-08-12T14:20:00.000Z",
+      "fileUrls": { "founderPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fcarlos_rossi.jpeg?alt=media&token=cedca687-b9c5-4422-a06e-3e24ce0b06b0" }
+    },
+    "idea_dummy_02": {
+      "founderName": "Fatima Al-Jamil",
+      "companyName": "GreenStep Logistics",
+      "projectName": "Eco-Friendly Delivery Network",
+      "ideaDescription": "A last-mile delivery service utilizing a fleet of electric bikes and optimized routing algorithms to reduce urban carbon footprints.",
+      "startupStatus": "Existing",
+      "needs": ["Financial Support"],
+      "contactPhone": "5550105",
+      "contactEmail": "fatima.aj@greenstep.com",
+      "founderDegree": "MBA in Sustainable Business",
+      "founderSkills": ["Logistics", "Business Development", "Marketing"],
+      "postedAt": "2025-08-11T18:00:00.000Z",
+      "fileUrls": { "founderPhotoUrl": "hhttps://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fchloe_nguyen.jpeg?alt=media&token=a091b48f-da56-4c68-9e53-6a7e9d0f9fcc" }
+    },
+    "idea_dummy_03": {
+      "founderName": "Carlos Rossi",
+      "companyName": "ConnectSphere",
+      "projectName": "Hyperlocal Community App",
+      "ideaDescription": "A mobile app that connects neighbors for skill-sharing, tool lending, and local event organizing to foster stronger community bonds.",
+      "startupStatus": "Planning",
+      "needs": ["Mentorship", "Idea Validation"],
+      "contactPhone": "5550106",
+      "contactEmail": "carlos.r@connectsphere.idea",
+      "founderDegree": "BA in Sociology",
+      "founderSkills": ["Community Management", "UI/UX Design", "React Native"],
+      "postedAt": "2025-08-10T11:45:00.000Z",
+      "fileUrls": { "founderPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fdavid_kim.jpeg?alt=media&token=2ec6d4b6-0d2f-4e05-a2fe-e9be5a0db68c" }
+    },
+    "idea_dummy_04": {
+      "founderName": "Chloe Nguyen",
+      "companyName": "ThreadWise",
+      "projectName": "Sustainable Fashion Marketplace",
+      "ideaDescription": "An online marketplace for pre-owned and ethically-produced clothing, featuring a 'style-swap' system to encourage circular fashion.",
+      "startupStatus": "Planning",
+      "needs": ["Financial Support", "Mentorship"],
+      "contactPhone": "5550107",
+      "contactEmail": "chloe.n@threadwise.style",
+      "founderDegree": "BFA in Fashion Design",
+      "founderSkills": ["E-commerce", "Marketing", "UI/UX Design"],
+      "postedAt": "2025-08-09T09:30:00.000Z",
+      "fileUrls": { "founderPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/placeholders%2Fchloe_nguyen.jpeg?alt=media" }
+    },
+    "idea_dummy_05": {
+      "founderName": "Liam Murphy",
+      "companyName": "FitAI Coach",
+      "projectName": "Personalized Fitness AI Coach",
+      "ideaDescription": "A mobile app that uses a phone's camera and AI to analyze workout form in real-time, providing corrective feedback to prevent injury and maximize results.",
+      "startupStatus": "Existing",
+      "needs": ["Idea Validation"],
+      "contactPhone": "5550108",
+      "contactEmail": "liam.m@fitaicoach.com",
+      "founderDegree": "PhD in Kinesiology",
+      "founderSkills": ["Python", "AI/ML", "React Native"],
+      "postedAt": "2025-08-08T20:00:00.000Z",
+      "fileUrls": { "founderPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Ffatima_aljamil.jpeg?alt=media&token=f228b1e1-8d5b-4b04-a86b-ae1e94fe8b67" }
+    }
+  },
+  "students": {
+    "student_dummy_01": {
+      "fullName": "Anya Petrova",
+      "fileUrls": { "passportPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/student_photos%2Fanya.jpeg?alt=media&token=e7c325a3-ab3a-44d5-bf0c-0ed7eae63244" },
+      "dateOfBirth": "1999-03-15", "sex": "Female", "phoneNo": "5550110", "email": "anya.p@email.com", "universityEmail": "anya.p.cs@kpi.ua", "linkedin": "https://linkedin.com/in/anyapetrova", "university": "Igor Sikorsky Kyiv Polytechnic Institute", "degree": "BSc in Cybersecurity", "status": "Degree Holder", "address": "Kyiv, Ukraine", "nicNo": "991234567V", "skills": ["Network Security", "Python", "Linux", "Pen Testing"], "postedAt": "2025-08-12T12:01:00.000Z"
+    },
+    "student_dummy_02": {
+      "fullName": "Javier Morales",
+      "fileUrls": { "passportPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fkenji_tanaka.jpeg?alt=media&token=0fcd5996-d88a-4e27-98bd-783eae851a1a" },
+      "dateOfBirth": "2000-07-22", "sex": "Male", "phoneNo": "5550111", "email": "javier.m@email.com", "universityEmail": "javier.m.se@unam.mx", "linkedin": "https://linkedin.com/in/javiermorales", "university": "National Autonomous University of Mexico", "degree": "BEng in Software Engineering", "status": "Degree Holder", "address": "Mexico City, Mexico", "nicNo": "200020401234", "skills": ["Java", "Spring Boot", "Microservices", "SQL", "Docker"], "postedAt": "2025-08-11T12:05:00.000Z"
+    },
+    "student_dummy_03": {
+      "fullName": "Priya Sharma",
+      "fileUrls": { "passportPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fisabella_rossi.jpeg?alt=media&token=76cb51f0-a6c0-4d2c-94a1-e8b239155914" },
+      "dateOfBirth": "2002-11-01", "sex": "Female", "phoneNo": "5550112", "email": "priya.s@email.com", "universityEmail": "priya.s.it@iitd.ac.in", "linkedin": "https://linkedin.com/in/priyasharma", "university": "Indian Institute of Technology Delhi", "degree": "BSc in Information Technology", "status": "Intern", "address": "Delhi, India", "nicNo": "200230601234", "skills": ["JavaScript", "React", "Node.js", "NoSQL"], "postedAt": "2025-08-10T12:10:00.000Z"
+    },
+    "student_dummy_04": {
+      "fullName": "David Kim",
+      "fileUrls": { "passportPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/placeholders%2Fliam_murphy.jpeg?alt=media&token=362f42cb-d9f3-410c-bdd6-1ec309833ce6" },
+      "dateOfBirth": "2001-01-10", "sex": "Male", "phoneNo": "5550113", "email": "david.k@email.com", "universityEmail": "david.k.biz@snu.ac.kr", "linkedin": "https://linkedin.com/in/davidkim", "university": "Seoul National University", "degree": "BBA in Business Administration", "status": "Intern", "address": "Seoul, South Korea", "nicNo": "200101012345", "skills": ["Finance", "Marketing", "Data Analysis", "Excel"], "postedAt": "2025-08-09T17:00:00.000Z"
+    },
+    "student_dummy_05": {
+      "fullName": "Isabella Rossi",
+      "fileUrls": { "passportPhotoUrl": "https://firebasestorage.googleapis.com/v0/b/jobflow2-d1187.firebasestorage.app/o/student_photos%2Fanya.jpeg?alt=media&token=e7c325a3-ab3a-44d5-bf0c-0ed7eae63244" },
+      "dateOfBirth": "1998-09-05", "sex": "Female", "phoneNo": "5550114", "email": "isabella.r@email.com", "universityEmail": "isabella.r.me@polimi.it", "linkedin": "https://linkedin.com/in/isabellarossi", "university": "Polytechnic University of Milan", "degree": "M.Eng in Mechanical Engineering", "status": "Degree Holder", "address": "Milan, Italy", "nicNo": "9824901234V", "skills": ["AutoCAD", "SolidWorks", "MATLAB", "Thermodynamics"], "postedAt": "2025-08-08T14:45:00.000Z"
+    }
+  }
+}

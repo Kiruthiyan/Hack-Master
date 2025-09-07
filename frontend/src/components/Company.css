@@ -1,0 +1,252 @@
+/* ===================================================================
+   GLOBAL STYLES & FONT IMPORTS
+   =================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.company-page-wrapper {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.company-section {
+  padding: 5rem 2rem;
+}
+.company-content-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section-pre-title {
+  color: #22c55e; 
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568; 
+}
+
+/* ===================================================================
+   SECTION 1: HERO
+   =================================================================== */
+.company-section.hero-section {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 51, 102, 0.4); 
+  overflow: hidden;
+  color: white;
+}
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35; 
+  z-index: 0;
+}
+.company-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 51, 102, 0.4); 
+  z-index: 1;
+}
+.company-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+.company-hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.company-hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+.hero-cta-button {
+  background-color: white;
+  color: #1e40af;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.hero-cta-button:hover {
+  background-color: #f3f4f6;
+  transform: translateY(-3px);
+}
+
+/* ===================================================================
+   SECTION 2 & 3: AUTOPILOT & ATS
+   =================================================================== */
+.autopilot-section { background-color: #f8f9fa; }
+.ats-section { background-color: #fff; }
+
+.autopilot-grid, .ats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+.autopilot-text h2, .ats-text h2 {
+  font-size: 2.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+.autopilot-image img, .ats-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.demo-button {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+.build-pipeline-link {
+  color: #16a34a; 
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ===================================================================
+   SECTION 4: DATA ANALYSIS / PLATFORM INSIGHTS
+   =================================================================== */
+.data-analysis-section {
+  background-color: #fff;
+}
+/* We can reuse the .split-title-group style for the heading */
+.data-analysis-section .split-title-group {
+  margin-bottom: 3rem;
+}
+
+/* ===================================================================
+   SECTION 5: WHY RECRUITERS LOVE US
+   =================================================================== */
+.love-us-section {
+  background-color: #f0f7ff; 
+}
+.split-title-group {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.split-title-group h2 {
+  font-size: 2.5rem;
+  color: #003366;
+  margin: 0;
+}
+.icon-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.icon-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+}
+.icon-list-icon-wrapper {
+  background-color: #dcfce7; 
+  color: #16a34a; 
+  border-radius: 50%;
+  min-width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.icon-list-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* ===================================================================
+   SECTION 6: FEATURED CARDS (This section was removed from JSX)
+   If you add it back, these styles will apply.
+   =================================================================== */
+.featured-cards-section {
+  background-color: #fff;
+}
+/* ... other featured card styles ... */
+
+/* ===================================================================
+   SECTION 7: QUOTES
+   =================================================================== */
+.quotes-section {
+  background-color: #f0f7ff; 
+}
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.quote-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 5px solid #22c55e; 
+}
+.quote-icon {
+  font-size: 2rem;
+  color: #16a34a; 
+  margin-bottom: 1rem;
+}
+.quote-card p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  font-style: italic;
+  margin: 0;
+}
+/* === Styles for the new AI Prediction Section === */
+
+
+
+/* ===================================================================
+   SECTION 8: RESPONSIVE DESIGN
+   =================================================================== */
+@media (max-width: 960px) {
+  .autopilot-grid, .ats-grid, .featured-cards-grid, .quotes-grid, .icon-list-grid {
+    grid-template-columns: 1fr;
+  }
+  .ats-grid .ats-image {
+    order: 2; 
+  }
+}
+@media (max-width: 768px) {
+  .company-hero-content h1, .autopilot-text h2, .ats-text h2 {
+    font-size: 2.2rem;
+  }
+}

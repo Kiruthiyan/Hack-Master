@@ -1,0 +1,30 @@
+company_name,industry,status,founded_year,funding_usd,country
+Innovate Inc.,IT,Succeeded,2021,5000000,USA
+HealthFirst,Healthcare,Succeeded,2020,12000000,USA
+DataDriven Co.,IT,Running,2022,2500000,Canada
+EcoSolutions,GreenTech,Failed,2019,500000,USA
+Fintech Future,Fintech,Succeeded,2022,25000000,UK
+AI Nexus,IT,Running,2023,8000000,USA
+QuantumLeap,DeepTech,Running,2021,15000000,Germany
+IT Solutions Pro,IT,Succeeded,2018,10000000,India
+BioGenetics,Biotech,Succeeded,2017,50000000,USA
+Retailify,E-commerce,Running,2022,3000000,USA
+CloudNine,SaaS,Succeeded,2019,18000000,USA
+Solaris Energy,Energy,Failed,2020,2000000,Germany
+EduVerse,EdTech,Running,2021,4500000,UK
+NextGen Mobility,Automotive,Running,2022,30000000,USA
+CyberSecure,IT,Succeeded,2020,22000000,Israel
+AgriTech Global,Agriculture,Succeeded,2018,7000000,Brazil
+LogiChain,Supply Chain,Running,2023,6000000,Singapore
+Gamer's Guild,Gaming,Failed,2021,1500000,USA
+QuantumCore AI,IT,Succeeded,2019,40000000,Canada
+FashionForward,E-commerce,Succeeded,2020,11000000,France
+PropTech Innovations,Real Estate,Running,2022,5500000,USA
+SoundWave Audio,Hardware,Succeeded,2018,13000000,USA
+VirtualSpaces,VR/AR,Failed,2021,2500000,USA
+MedLink,Healthcare,Running,2023,9000000,India
+CodeStream,SaaS,Succeeded,2020,16000000,UK
+# --- ADD THESE NEW LINES ---
+LankaInnovate,IT,Succeeded,2022,2000000,Sri Lanka
+CeylonTech,Fintech,Running,2023,1500000,Sri Lanka
+Serendipity AI,IT,Failed,2021,300000,Sri Lanka

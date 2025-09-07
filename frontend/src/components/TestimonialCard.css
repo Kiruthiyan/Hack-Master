@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 74, 153, 0.1);
+  width: 350px;
+  max-width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 74, 153, 0.2);
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -4.5rem auto 1rem auto; 
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-opinion {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  font-style: italic;
+  flex-grow: 1; 
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+  margin-top: auto; 
+}
+
+.author-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #003366;
+  margin: 0;
+}
+
+.author-job {
+  font-size: 0.9rem;
+  color: #007bff;
+  margin: 0;
+}
